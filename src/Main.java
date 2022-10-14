@@ -18,11 +18,22 @@ public class Main {
 //        System.out.println(l3);
 //        System.out.println(l4);
 
-        double num = 0;
-        for (int i = 0; i<100; i++) {
-            num += Math.random();
-        }
-        System.out.println(num);
+//        double num = 0;
+//        for (int i = 0; i<100; i++) {
+//            num += Math.random();
+//        }
+//        System.out.println(num);
+//          double num = Math.random()*75+25;
+//          System.out.println(num);
+
+//
+//        int rand1 = (int) (Math.random() * 9) + 2;
+//        int rand2 = (int) Math.random() * 9 + 2;
+//        System.out.println(rand1);
+//        System.out.println(rand2);
+
+        LuckyNumbers l = new LuckyNumbers();
+        System.out.println(l.getLuckyNumbers());
 
     }
 }
