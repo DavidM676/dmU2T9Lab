@@ -31,9 +31,15 @@ public class Main {
 //        int rand2 = (int) Math.random() * 9 + 2;
 //        System.out.println(rand1);
 //        System.out.println(rand2);
+//
+//        LuckyNumbers l = new LuckyNumbers();
+//        System.out.println(l.getLuckyNumbers());
 
-        LuckyNumbers l = new LuckyNumbers();
-        System.out.println(l.getLuckyNumbers());
+//        System.out.println(Math.toDegrees(Math.PI));
+
+
+          int x = (int)(Math.random() * 26) + 50;
+          System.out.println(x);
 
     }
 }
